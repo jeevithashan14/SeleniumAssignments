@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>TestNG:  LFT-96329 Lead Development in Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>LFT-96329 Lead Development in Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 25 02:30:55 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>64 seconds (64177 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.leaftaps.ui.leads.testcases.TC_CreateLead.runCreateLead()'><b>runCreateLead</b><br>Test class: com.leaftaps.ui.leads.testcases.TC_CreateLead<br>Parameters: DemoSalesManager, crmsfa, TL, Hari, R, 9790494310</td>
+<td></td>
+<td>13</td>
+<td>com.leaftaps.ui.leads.testcases.TC_CreateLead@76508ed1</td></tr>
+<tr>
+<td title='com.leaftaps.ui.leads.testcases.TC_DeleteLead.runDeleteLead()'><b>runDeleteLead</b><br>Test class: com.leaftaps.ui.leads.testcases.TC_DeleteLead<br>Parameters: DemoSalesManager, crmsfa, 9</td>
+<td></td>
+<td>14</td>
+<td>com.leaftaps.ui.leads.testcases.TC_DeleteLead@41e36e46</td></tr>
+<tr>
+<td title='com.leaftaps.ui.leads.testcases.TC_DuplicateLead.runDuplicateLead()'><b>runDuplicateLead</b><br>Test class: com.leaftaps.ui.leads.testcases.TC_DuplicateLead<br>Parameters: DemoSalesManager, crmsfa, 9790494303</td>
+<td></td>
+<td>17</td>
+<td>com.leaftaps.ui.leads.testcases.TC_DuplicateLead@43195e57</td></tr>
+<tr>
+<td title='com.leaftaps.ui.leads.testcases.TC_EditLead.runEditLead()'><b>runEditLead</b><br>Test class: com.leaftaps.ui.leads.testcases.TC_EditLead<br>Parameters: DemoSalesManager, crmsfa, 9790494303, TCS</td>
+<td></td>
+<td>14</td>
+<td>com.leaftaps.ui.leads.testcases.TC_EditLead@15c43bd9</td></tr>
+<tr>
+<td title='com.leaftaps.ui.leads.testcases.TC_MergeLead.runMergeLead()'><b>runMergeLead</b><br>Test class: com.leaftaps.ui.leads.testcases.TC_MergeLead<br>Parameters: DemoSalesManager, crmsfa, hari, babu</td>
+<td></td>
+<td>15</td>
+<td>com.leaftaps.ui.leads.testcases.TC_MergeLead@333291e3</td></tr>
+</table><p>
+</body>
+</html>
